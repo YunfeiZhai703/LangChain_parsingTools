@@ -324,46 +324,6 @@ This business report analyzes quarterly performance metrics and provides strateg
 - **Model Performance**: Analysis speed depends on local hardware and Ollama setup
 - **Language Support**: Optimized for English text analysis
 
-## 🔒 Security & Privacy
-
-- **Local Processing**: All AI analysis happens on your machine
-- **No Data Sharing**: Documents never leave your environment
-- **Temporary Files**: Automatically cleaned up after processing
-- **File Validation**: Strict file type and size validation
-- **CORS Configuration**: Configured for local development (adjust for production)
-
-## 🚀 Performance Tips
-
-1. **Hardware**: More RAM and CPU cores improve Llama2 performance
-2. **Model Selection**: Smaller models (llama2:7b) are faster than larger ones
-3. **File Optimization**: Compress images and optimize PDFs before upload
-4. **Batch Processing**: Process multiple small files rather than very large ones
-
-## 📝 License
-
-This project is open source. Please check the license file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Test both backend and frontend
-6. Submit a pull request
-
-## 📞 Support
-
-For issues, questions, or feature requests, please open an issue on the repository.
-
-## 🛠️ Troubleshooting
-
-### Common Issues
-
-1. **Ollama Connection Failed**: Ensure Ollama is running with `ollama serve`
-2. **OCR Not Working**: Install Tesseract OCR for your system
-3. **Frontend Not Loading**: Check that both backend (8000) and frontend (3000) are running
-4. **Analysis Timeout**: Try smaller files or use a faster Ollama model
 
 ### Setup Scripts
 
