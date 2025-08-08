@@ -1,7 +1,8 @@
 # 📄 CybParser - Multi-Format Document Analysis Tool
 
 A powerful **multi-format document analysis tool** built with **LangChain**, **local Llama2**, **FastAPI**, and **React**. Upload PDF, image, Excel, or CSV files and get intelligent AI-powered analysis using a completely local and private AI model.
-
+![Main page](main.png)
+![Chat page](chat.png)
 ## ✨ Features
 
 - 📄 **Multi-Format Support** - Upload and analyze multiple document types:
