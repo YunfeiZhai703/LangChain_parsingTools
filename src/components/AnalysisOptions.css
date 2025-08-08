@@ -1,0 +1,33 @@
+.analysis-options {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.option-item input[type="radio"] {
+  accent-color: #a855f7;
+  transform: scale(1.2);
+}
+
+.option-item label {
+  font-weight: 500;
+  color: #374151;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .analysis-options {
+    flex-direction: column;
+    align-items: center;
+  }
+} 

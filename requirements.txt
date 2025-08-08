@@ -1,0 +1,23 @@
+# Core LangChain dependencies
+langchain==0.0.350
+langchain-community==0.0.10
+
+# Local model support (included in langchain-community)
+
+# Document processing
+pypdf==4.0.1
+pandas==2.1.4
+openpyxl==3.1.2
+pillow==10.1.0
+pytesseract==0.3.10
+
+# Web framework
+fastapi==0.108.0
+uvicorn==0.25.0
+python-multipart==0.0.6
+
+# Environment management
+python-dotenv==1.0.0
+
+# HTTP client for frontend
+requests==2.31.0 

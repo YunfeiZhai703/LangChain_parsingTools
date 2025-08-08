@@ -1,0 +1,137 @@
+.upload-area {
+  margin-bottom: 30px;
+}
+
+.upload-section {
+  background: #f7f7f7;
+  border: 2px dashed #d1d5db;
+  border-radius: 12px;
+  padding: 80px 60px;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 900px;
+  max-width: 90vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.upload-section:hover {
+  border-color: #a855f7;
+  background: #f0f0f0;
+}
+
+.upload-section.dragover {
+  border-color: #a855f7;
+  background: #f0f0f0;
+  transform: scale(1.02);
+}
+
+.upload-icon {
+  font-size: 4rem;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.upload-text {
+  font-size: 1.3rem;
+  color: #374151;
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+.upload-or {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-btn {
+  background: #a855f7;
+  border: none;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 8px;
+  width: 250px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.upload-btn:hover {
+  background: #9333ea;
+}
+
+.upload-btn-primary {
+  background: #10b981;
+}
+
+.upload-btn-primary:hover {
+  background: #059669;
+}
+
+.upload-btn.disabled,
+.upload-btn:disabled {
+  background: #9ca3af !important;
+  cursor: not-allowed !important;
+  opacity: 0.6;
+}
+
+.upload-btn.disabled:hover,
+.upload-btn:disabled:hover {
+  background: #9ca3af !important;
+}
+
+.supported-files {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 20px;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+  .upload-section {
+    width: 95vw;
+    height: 350px;
+    padding: 40px 20px;
+  }
+  
+  .upload-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .upload-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .upload-btn {
+    width: 180px;
+    height: 48px;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+} 
